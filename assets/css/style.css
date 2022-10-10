@@ -3,8 +3,20 @@
     padding: 0px;
 }
 
+#button-design {
+    border: 1px solid cornflowerblue;
+    background-color: #a7bcff;
+    border-radius: 5px;
+}
 
+#button-design a {
 
+    text-decoration: none;
+}
+
+button a {
+    text-decoration: none;
+}
 
 
 #hero {

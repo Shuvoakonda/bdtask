@@ -1,3 +1,10 @@
+<?php
+$servername = "localhost";
+$root = "root";
+$password = "";
+// Create connection
+$conn = new mysqli($servername, $root, $password);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -54,22 +61,15 @@
                             <button class="btn dropdown-toggle" aria-haspopup="true" type="" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img class="image-fluid rounded-circle" style="height:52px;width:52px;" src="assets/images/my-photo/my  (4).jpg" alt="">
                             </button>
-                            <ul class="dropdown-menu container-fluid" style="margin-top: 70px;">
+                            <ul class="dropdown-menu container-fluid" style="margin-top: 70px; ">
                                 <li><button class="dropdown-item" type="button">Md.Shuvo Akando</button></li>
                                 <li><button class="dropdown-item" type="button">Web Developer</button></li>
                                 <li><button class="dropdown-item" type="button">01303550622</button></li>
+                                <li><button id="button-design" class="dropdown-item" type="button"><a href="login.php">Log Out</a></button></li>
                             </ul>
                         </div>
                     </li>
-                    <!-- <div class="btn-group dropstart">
-                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropstart
-                        </button>
-                        <ul class="dropdown-menu">
 
-                            <a href="">Hello</a>
-                        </ul>
-                    </div> -->
 
 
 
@@ -282,8 +282,8 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo fugiat necessitatibus deserunt
                     quisquam libero et amet itaque iure earum quos!
                 </p>
-                <ul class="d-flex flex-wrap justify-content-start gap-3 list-none mt-3">
-                    <li><a href="#">All</a></li>
+                <ul class="d-flex flex-wrap justify-content-center gap-3 list-none mt-3">
+
                     <li><a href="#">Photography</a></li>
                     <li><a href="#">Logo Design</a></li>
                     <li><a href="#">Graphic Design</a></li>
