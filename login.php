@@ -2,6 +2,7 @@
 $servername = "localhost";
 $root = "root";
 $password = "";
+$dbName = "bd_task";
 // Create connection
 $conn = new mysqli($servername, $root, $password);
 ?>
